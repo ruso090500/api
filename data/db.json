@@ -1,0 +1,791 @@
+{
+    "categories": [
+      { "id": "burgers", "name": "Hamburguesas", "icon": "beef" },
+      { "id": "classic-burgers", "name": "Hamburguesas Clásicas", "icon": "beef" },
+      { "id": "deluxe-burgers", "name": "Hamburguesas Deluxe", "icon": "beef" },
+      { "id": "contest-burgers", "name": "Hamburguesas Burger Master", "icon": "beef" },
+      { "id": "hotdogs", "name": "Perros Calientes", "icon": "hot-dog" },
+      { "id": "fries", "name": "Papas", "icon": "french-fries" },
+      { "id": "sides", "name": "Acompañamientos", "icon": "acompañamientos" },
+      { "id": "drinks", "name": "Bebidas", "icon": "cup-soda" }
+    ],
+    "menuItems": [
+      {
+        "id": 1,
+        "name": "Burger parrillera sencilla",
+        "description": "135 GR DE CARNE DE RES A LA PARRILLA, pan artesanal sellado en mantequilla, queso doble crema, vegetales frescos, papitas crocantes, mayonesa de ajo y salsa BBQ",
+        "price": 15000,
+        "priceWithFries": 21000,
+        "priceWithRusticFries": 21000,
+        "category": "classic-burgers",
+        "customizable": true,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 2,
+        "name": "Burger parrillera ranchera",
+        "description": "Pan artesanal sellado en mantequilla, queso doble crema, trocitos de chorizo en nuestra salsa BBQ Johnnie Walker, vegetales frescos, mayonesa de ajo",
+        "price": 17000,
+        "priceWithFries": 23000,
+        "priceWithRusticFries": 23000,
+        "category": "classic-burgers",
+        "customizable": true,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 3,
+        "name": "Burger parrillera beacon-chese",
+        "description": "135 GR DE CARNE DE RES A LA PARRILLA, pan artesanal sellado en mantequilla, queso cheddar, tocineta ahumada, vegetales frescos, mayonesa de ajo, mostaza, y nuestra BBQ Johnnie Walker",
+        "price": 17000,
+        "priceWithFries": 23000,
+        "priceWithRusticFries": 23000,
+        "category": "classic-burgers",
+        "customizable": true,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 4,
+        "name": "Burger parrillera chicken grill",
+        "description": "130 GR DE PECHUGA DE POLLO A LA PARRILLA, pan artesanal sellado en mantequilla, queso fundido, tocineta, cebolla caramelizada, pimientos asados, vegetales frescos (lechuga, tomate), mayonesa de ajo y nuestra salsa BBQ.",
+        "price": 17000,
+        "priceWithFries": 23000,
+        "priceWithRusticFries": 23000,
+        "category": "deluxe-burgers",
+        "customizable": true,
+        "availableAt": ["sede-tamasagra"],
+        "image": null
+      },
+      {
+        "id": 5,
+        "name": "Burger parrillera chicken crunch",
+        "description": "130 GR DE PECHUGA APANADA AL ESTILO AMERICANO, pan artesanal sellado en mantequilla, queso colby jack, pepinillos agridulces, cebolla crunch, lechuga y nuestra salsa especial New York.",
+        "price": 17000,
+        "priceWithFries": 23000,
+        "priceWithRusticFries": 23000,
+        "category": "deluxe-burgers",
+        "customizable": true,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 6,
+        "name": "Burger parrillera especial",
+        "description": "135 GR DE CARNE DE RES A LA PARRILLA, pan artesanal, queso fundido, queso cheddar, piña asada, tocineta ahumada, lechuga fresca, papitas crocantes, mayonesa de ajo.",
+        "price": 18000,
+        "priceWithFries": 24000,
+        "priceWithRusticFries": 24000,
+        "category": "classic-burgers",
+        "customizable": true,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 7,
+        "name": "Burger parrillera argentina",
+        "description": "150 GR de carne de res y chorizo marinados en cerveza, pan artesanal sellado en mantequilla, queso doble crema, salsa criolla (pimentón, cebolla, especias), vegetales frescos (lechuga, tomate), mayonesa de ajo.",
+        "price": 19000,
+        "priceWithFries": 25000,
+        "priceWithRusticFries": 25000,
+        "category": "deluxe-burgers",
+        "customizable": true,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 8,
+        "name": "Burger parrillera doble carne",
+        "description": "270 GR DE CARNE DE RES A LA PARRILLA, pan artesanal sellado en mantequilla, queso doble crema, queso cheddar, tocineta ahumada, cebolla caramelizada, vegetales frescos (lechuga, tomate), mayonesa de ajo, mostaza y nuestra salsa Johnnie Walker.",
+        "price": 27000,
+        "priceWithFries": 33000,
+        "priceWithRusticFries": 33000,
+        "category": "deluxe-burgers",
+        "customizable": true,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 9,
+        "name": "Burger parrillera rolly burger",
+        "description": "150 GR DE CARNE DE RES A LA PARRILLA ACOMPAÑADA DE PAN ARTESANAL, QUESO CHEEDAR, SOUR CREAM, TOCINETA AHUMADA CROCANTE Y NUESTRA SALSA BBQ ROLLY CON UNOS TONOS DULCES Y PIMIENTA.",
+        "price": 24000,
+        "priceWithFries": 30000,
+        "priceWithRusticFries": 30000,
+        "category": "contest-burgers",
+        "customizable": true,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 10,
+        "name": "Burger parrillera volcanica 2.0",
+        "description": "150 GR DE CARNE DE RES A LA PARRILLA, ACOMPAÑADA DE PAN ARTESANAL, QUESO SABANA, TROCITOS DE CHILACUAN, TOCINETA AHUMADA, CUAJADA ASADA, UN ADEREZO DE MANI LIGERAMENTE PICANTE, RUGULA Y MAYONESA DE LA CASA.",
+        "price": 24000,
+        "priceWithFries": 30000,
+        "priceWithRusticFries": 30000,
+        "category": "contest-burgers",
+        "customizable": true,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 11,
+        "name": "Burger parriiiera-big monster",
+        "description": "330 GR DE CARNE DE RES A LA PARRILLA, acompañada de pan artesanal, triple queso cheddar, tocineta ahumada, aros de cebolla apanados, mayonesa de ajo, mostaza y nuestra salsa BBQ Johnnie Walker",
+        "price": 31000,
+        "priceWithFries": 37000,
+        "priceWithRusticFries": 37000,
+        "category": "deluxe-burgers",
+        "customizable": true,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 12,
+        "name": "Burger Parrillera mero flow",
+        "description": "150 GR DE CARNE DE RES A LA PARRILLA, PAN ARTESANAL SELLADO EN MANTEQUILLA, QUESO MOZARELA. MERMELADA DE TOCINETA AHUMADA Y MANZANA VERDE, SOUR CREAM CON TONOS DE QUESO AZUL, CEBOLLA CRISPY Y SALSA DE LA CASA.",
+        "price": 24000,
+        "priceWithFries": 30000,
+        "priceWithRusticFries": 30000,
+        "category": "contest-burgers",
+        "customizable": true,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 13,
+        "name": "Burger Parrillera bacon deluxe",
+        "description": "135 GR DE CARNE DE RES A LA PARRILLA, PAN ARTESANAL SELLADO EN MANTEQUILLA, QUESO CHEDDAR, TOCINETA EN REDUCCION DE VINO TINTO, CEBOLLA CARAMELIZADA, RUGULA, MAYONESA DE AJO Y SALSA CHIPOTLE.",
+        "price": 19000,
+        "priceWithFries": 25000,
+        "priceWithRusticFries": 25000,
+        "category": "deluxe-burgers",
+        "customizable": true,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 14,
+        "name": "Burger Parrillera volcanica",
+        "description": "180 GR DE CARNE DE RES A LA PARRILLA, PAN ARTESANAL SELLADO EN MANTEQUILLA, DOBLE QUESO SABANA, TOCINETA AHUMADA, CHUTNEY DE MANGO, ADEREZO DE MANI LIGERAMENTE PICANTE, RUGULA Y MAYONESA DE LA CASA.",
+        "price": 26000,
+        "priceWithFries": 32000,
+        "priceWithRusticFries": 32000,
+        "category": "deluxe-burgers",
+        "customizable": true,
+        "availableAt": ["sede-tamasagra"],
+        "image": null
+      },
+      {
+        "id": 15,
+        "name": "Burger Parrillera beef master",
+        "description": "180 GR DE CARNE DE RES A LA PARRILLA, PAN ARTESANAL SELLADO EN MANTEQUILLA, DOBLE QUESO SABANA, DOBLE TOCINETA AHUMADA EN REDUCCION DE VINO TINTO, RUGULA, MAYONESA DE AJO.",
+        "price": 26000,
+        "priceWithFries": 32000,
+        "priceWithRusticFries": 32000,
+        "category": "deluxe-burgers",
+        "customizable": true,
+        "availableAt": ["sede-tamasagra"],
+        "image": null
+      },
+      {
+        "id": 16,
+        "name": "Burger Parrillera super meat",
+        "description": "LA MAS SALVAJE DEL BARRIO, DOS CARNES DE 80 GR QUE RUGEN EN CADA MORDIDA, PAN BRIOCHE SELLADO EN MANTEQUILLA, QUESO DOBLE CREMA Y UN CHEDDAR CREMOSOQUE SE DESBORDASIN PEDIR PERMISO, LA MAYOCHIRRI LE METE TODO EL POWER CALLEJERO, LAS TOCINETAS CARAMELIZADAS EN REDUCCION DE CERVEZA ESTAN BIEN LOCAS Y CRIJIENTES, TE ATREVES A PROBARLA?",
+        "price": 24000,
+        "priceWithFries": 30000,
+        "priceWithRusticFries": 30000,
+        "category": "contest-burgers",
+        "customizable": true,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 17,
+        "name": "Hot Dog Parrillero clasico",
+        "description": "SALCHICHA TIPO AMERICANA, PAN BRIOCHE, QUESO DOBLE CREMA, TOCINETA, CEBOLLA, PAPITAS CROCANTES Y NUESTRAS SALSAS DE LA CASA.",
+        "price": 15000,
+        "priceWithFries": 21000,
+        "priceWithRusticFries": 21000,
+        "category": "hotdogs",
+        "customizable": true,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 18,
+        "name": "Hot dog parrillero especial",
+        "description": "SALCHICHA TIPO AMERICANA, PAN BRIOCHE, DOBLE QUESO MOZARELLA, PIÑA ASADA, TOCINETA CROCANTE Y NUESTRAS SALSAS DE LA CASA.",
+        "price": 17000,
+        "priceWithFries": 23000,
+        "priceWithRusticFries": 23000,
+        "category": "hotdogs",
+        "customizable": true,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 19,
+        "name": "Chicken pop",
+        "description": "10 TROCITOS DE PECHUGA APANADAS AL ESTILO PARRILLEROS, PAPITAS RUSTICAS, LIMINADA NATURAL O AGUA SABORIZADA DE LIMON.",
+        "price": 22000,
+        "category": "fries",
+        "customizable": false,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 20,
+        "name": "Papas de la casa",
+        "description": "PAPAS RUSTICAS, TROCITOS DE PECHUGA A LA PARRILLA, TROCITOS DE CHORIZO, TOCINETA Y SALSAS DE LA CASA. (APROX 600 GR)",
+        "price": 18000,
+        "category": "fries",
+        "customizable": false,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 21,
+        "name": "Cheese and beacon fries",
+        "description": "PAPAS RUSTICAS BAÑADAS EN QUESO CHEEDAR Y TIERRA DE TOCINETA.",
+        "price": 16000,
+        "category": "fries",
+        "customizable": false,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 22,
+        "name": "Papas francesas",
+        "description": "Crujientes papas fritas con sal",
+        "price": 6000,
+        "category": "sides",
+        "customizable": false,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 23,
+        "name": "Papas rusticas",
+        "description": "Crujientes papas fritas con sal",
+        "price": 6000,
+        "category": "sides",
+        "customizable": false,
+"availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 24,
+        "name": "Papas a la provenzal",
+        "description": "Crujientes papas fritas con sal",
+        "price": 9000,
+        "category": "sides",
+        "customizable": false,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 25,
+        "name": "Ad chorizo",
+        "description": "CHORIZO",
+        "price": 4000,
+        "category": "sides",
+        "customizable": false,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 26,
+        "name": "Ad tocineta",
+        "description": "TOCINETA",
+        "price": 4000,
+        "category": "sides",
+        "customizable": false,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 27,
+        "name": "Ad carne",
+        "description": "ADICION DE CARNE",
+        "price": 6000,
+        "category": "sides",
+        "customizable": false,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 28,
+        "name": "Ad carne certified angus beef",
+        "description": "ADICION DE CARNE CERTIFIED ANGUS BEEF",
+        "price": 13000,
+        "category": "sides",
+        "customizable": false,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 29,
+        "name": "Piña asada",
+        "description": "ADICION DE PIÑA ASADA",
+        "price": 2500,
+        "category": "sides",
+        "customizable": false,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 30,
+        "name": "Ad cebolla caramelizada",
+        "description": "ADICION DE CEBOLLA CARAMELIZADA",
+        "price": 3000,
+        "category": "sides",
+        "customizable": false,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 31,
+        "name": "Ad queso fundido",
+        "description": "ADICION DE QUESO FUNDIDO",
+        "price": 3000,
+        "category": "sides",
+        "customizable": false,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 32,
+        "name": "Ad queso cheddar",
+        "description": "ADICION DE QUESO CHEDDAR",
+        "price": 4000,
+        "category": "sides",
+        "customizable": false,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 33,
+        "name": "Ad queso colby jack",
+        "description": "ADICION DE QUESO COLBY JACK",
+        "price": 4000,
+        "category": "sides",
+        "customizable": false,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 34,
+        "name": "Ad queso sabana",
+        "description": "ADICION DE QUESO SABANA",
+        "price": 4000,
+        "category": "sides",
+        "customizable": false,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 35,
+        "name": "Ad aros de cebolla apanados",
+        "description": "ADICION DE AROS DE CEBOLLA (3 UN)",
+        "price": 4500,
+        "category": "sides",
+        "customizable": false,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 36,
+        "name": "Ad cebolla crunch",
+        "description": "ADICION DE CEBOLLA CRUNCH",
+        "price": 3000,
+        "category": "sides",
+        "customizable": false,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 37,
+        "name": "Ad pepinillos",
+        "description": "ADICION DE PEPINILLOS",
+        "price": 3000,
+        "category": "sides",
+        "customizable": false,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 38,
+        "name": " Dunkin Donuts",
+        "description": "ADICION DE JALAPEÑOS",
+        "price": 3000,
+        "category": "sides",
+        "customizable": false,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 39,
+        "name": "Ad cheddar liquido y tierra de tocineta",
+        "description": "ADICION DE QUESO CHEDAR Y TOCINETA",
+        "price": 7000,
+        "category": "sides",
+        "customizable": false,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 40,
+        "name": "Ad ripio de papa crocante",
+        "description": "ADICION DE RIPIO DE PAPA",
+        "price": 1000,
+        "category": "sides",
+        "customizable": false,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 41,
+        "name": "Gaseosa coca cola",
+        "description": "COCA COLA",
+        "price": 6000,
+        "category": "drinks",
+        "customizable": false,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 42,
+        "name": "Fuze te durazno",
+        "description": "FUZE TE DURAZNO",
+        "price": 5000,
+        "category": "drinks",
+        "customizable": false,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 43,
+        "name": "Fuze te limon",
+        "description": "FUZE TE LIMON",
+        "price": 5000,
+        "category": "drinks",
+        "customizable": false,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 44,
+        "name": "Jugo del valle de mandarina",
+        "description": "JUGO DEL VALLE DE MANDARINA",
+        "price": 4500,
+        "category": "drinks",
+        "customizable": false,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 45,
+        "name": "Agua natural",
+        "description": "AGUA",
+        "price": 3500,
+        "category": "drinks",
+        "customizable": false,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 46,
+        "name": "Agua saborizada",
+        "description": "AGUA SABORIZADA",
+        "price": 3500,
+        "category": "drinks",
+        "customizable": false,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 47,
+        "name": "Limonada natural",
+        "description": "LIMONADA NATURAL",
+        "price": 6500,
+        "category": "drinks",
+        "customizable": false,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 48,
+        "name": "Limonada cerezada",
+        "description": "LIMONADA CEREZADA",
+        "price": 8500,
+        "category": "drinks",
+        "customizable": false,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 49,
+        "name": "Limonada de fresa",
+        "description": "LIMONADA DE FRESA",
+        "price": 8500,
+        "category": "drinks",
+        "customizable": false,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 50,
+        "name": "Limonada de coco",
+        "description": "LIMONADA DE COCO",
+        "price": 9500,
+        "category": "drinks",
+        "customizable": false,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 51,
+        "name": "Jugo natural mora en agua",
+        "description": "JUGO NATURAL MORA EN AGUA",
+        "price": 6500,
+        "category": "drinks",
+        "customizable": false,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 52,
+        "name": "Jugo natural mora en leche",
+        "description": "JUGO NATURAL MORA EN LECHE",
+        "price": 7500,
+        "category": "drinks",
+        "customizable": false,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 53,
+        "name": "Jugo natural fresa en agua",
+        "description": "JUGO NATURAL FRESA EN AGUA",
+        "price": 6500,
+        "category": "drinks",
+        "customizable": false,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 54,
+        "name": "Jugo natural fresa en leche",
+        "description": "JUGO NATURAL FRESA EN LECHE",
+        "price": 7500,
+        "category": "drinks",
+        "customizable": false,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 55,
+        "name": "Jugo natural maracuya en agua",
+        "description": "JUGO NATURAL MARACUYA EN AGUA",
+        "price": 6500,
+        "category": "drinks",
+        "customizable": false,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 56,
+        "name": "Jugo natural maracuya en leche",
+        "description": "JUGO NATURAL MARACUYA EN LECHE",
+        "price": 7500,
+        "category": "drinks",
+        "customizable": false,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 57,
+        "name": "Jugo natural mango en agua",
+        "description": "JUGO NATURAL MANGO EN AGUA",
+        "price": 6500,
+        "category": "drinks",
+        "customizable": false,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 58,
+        "name": "Jugo natural mango en leche",
+        "description": "JUGO NATURAL MANGO EN LECHE",
+        "price": 7500,
+        "category": "drinks",
+        "customizable": false,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 59,
+        "name": "Jugo natural lulo en agua",
+        "description": "JUGO NATURAL LULO EN AGUA",
+        "price": 6500,
+        "category": "drinks",
+        "customizable": false,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 60,
+        "name": "Jugo natural lulo en leche",
+        "description": "JUGO NATURAL LULO EN LECHE",
+        "price": 7500,
+        "category": "drinks",
+        "customizable": false,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 61,
+        "name": "Jugo natural guanabana en agua",
+        "description": "JUGO NATURAL GUANABANA EN AGUA",
+        "price": 6500,
+        "category": "drinks",
+        "customizable": false,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 62,
+        "name": "Jugo natural guanabana en leche",
+        "description": "JUGO NATURAL GUANABANA EN LECHE",
+        "price": 7500,
+        "category": "drinks",
+        "customizable": false,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 63,
+        "name": "Malteada cookies and cream",
+        "description": "MALTEADA",
+        "price": 13000,
+        "category": "drinks",
+        "customizable": false,
+        "availableAt": ["sede-tamasagra"],
+        "image": null
+      },
+      {
+        "id": 64,
+        "name": "Te helado de limon",
+        "description": "TE HELADO DE LIMON",
+        "price": 6000,
+        "category": "drinks",
+        "customizable": false,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 65,
+        "name": "Cerveza poker",
+        "description": "NACIONALES",
+        "price": 7000,
+        "category": "drinks",
+        "customizable": false,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      },
+      {
+        "id": 66,
+        "name": "Cerveza club dorada",
+        "description": "NACIONALES",
+        "price": 9000,
+        "category": "drinks",
+        "customizable": false,
+        "availableAt": ["sede-tamasagra", "sede-san-ignacio", "sede-las-cuadras"],
+        "image": null
+      }
+    ],
+    "customizationOptions": [
+      { "id": 1, "name": "ad chorizo", "price": 4000 },
+      { "id": 2, "name": "ad tocineta", "price": 4000 },
+      { "id": 3, "name": "ad carne", "price": 8000 },
+      { "id": 4, "name": "ad carne certified angus beef", "price": 13000 },
+      { "id": 5, "name": "ad piña asada", "price": 2500 },
+      { "id": 6, "name": "ad cebolla caramelizada", "price": 3000 },
+      { "id": 7, "name": "ad queso fundido", "price": 3000 },
+      { "id": 8, "name": "ad queso cheddar", "price": 4000 },
+      { "id": 9, "name": "ad queso colby jack", "price": 4000 },
+      { "id": 10, "name": "ad queso sabana", "price": 4000 },
+      { "id": 11, "name": "ad aros de cebolla apanados", "price": 4500 },
+      { "id": 12, "name": "ad cebolla crunch", "price": 3000 },
+      { "id": 13, "name": "ad pepinillos", "price": 3000 },
+      { "id": 14, "name": "ad jalapeños", "price": 3000 },
+      { "id": 15, "name": "ad queso liquido y tierra de tocineta", "price": 7000 },
+      { "id": 16, "name": "ad ripio de papa crocante", "price": 1000 }
+    ],
+    "categorizedSides": {
+      "Papas": [
+        { "id": 22, "name": "Papas francesas", "price": 6000 },
+        { "id": 23, "name": "Papas rusticas", "price": 6000 },
+        { "id": 24, "name": "Papas a la provenzal", "price": 9000 },
+        { "id": 40, "name": "Ad ripio de papa crocante", "price": 1000 }
+      ],
+      "Carnes": [
+        { "id": 25, "name": "Ad chorizo", "price": 4000 },
+        { "id": 26, "name": "Ad tocineta", "price": 4000 },
+        { "id": 27, "name": "Ad carne", "price": 6000 },
+        { "id": 28, "name": "Ad carne certified angus beef", "price": 13000 }
+      ],
+      "Quesos": [
+        { "id": 31, "name": "Ad queso fundido", "price": 3000 },
+        { "id": 32, "name": "Ad queso cheddar", "price": 4000 },
+        { "id": 33, "name": "Ad queso colby jack", "price": 4000 },
+        { "id": 34, "name": "Ad queso sabana", "price": 4000 },
+        { "id": 39, "name": "Ad cheddar liquido y tierra de tocineta", "price": 7000 }
+      ],
+      "Cebollas": [
+        { "id": 30, "name": "Ad cebolla caramelizada", "price": 3000 },
+        { "id": 35, "name": "Ad aros de cebolla apanados", "price": 4500 },
+        { "id": 36, "name": "Ad cebolla crunch", "price": 3000 }
+      ],
+      "Otros Vegetales y Adiciones": [
+        { "id": 29, "name": "Piña asada", "price": 2500 },
+        { "id": 37, "name": "Ad pepinillos", "price": 3000 },
+        { "id": 38, "name": "Ad jalapeños", "price": 3000 }
+      ]
+    },
+    "locations": [
+      {
+        "id": "sede-tamasagra",
+        "name": "Parrilleros Tamasagra",
+        "address": "Manzana 9A casa 1 - Tamasagra",
+        "phone": "301 222 2098",
+        "whatsapp": "+573012222098",
+        "neighborhood": "Tamasagra",
+        "deliveryZones": ["Cualquier sitio de la ciudad"],
+        "availableProducts": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66]
+      },
+      {
+        "id": "sede-san-ignacio",
+        "name": "Parrilleros San Ignacio",
+        "address": "Cra 32 # 14 - 84 - San Ignacio",
+        "phone": "316 606 0005",
+        "whatsapp": "+573166060005",
+        "neighborhood": "San Ignacio",
+        "deliveryZones": ["Cualquier sitio de la ciudad"],
+        "availableProducts": [1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 64, 65, 66]
+      },
+      {
+        "id": "sede-las-cuadras",
+        "name": "Parrilleros Cuadras",
+        "address": "Calle 20 # 31C - 38 - Las Cuadras",
+        "phone": "313 341 9733",
+        "whatsapp": "+573133419733",
+        "neighborhood": "Las Cuadras",
+        "deliveryZones": ["Cualquier sitio de la ciudad"],
+        "availableProducts": [1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 64, 65, 66]
+      }
+    ]
+  }
